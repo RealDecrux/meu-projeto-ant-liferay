@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* styles.css */  
+.logo {  
+  text-align: center; /* Centraliza a logo */  
+  padding: 16px 0; /* Adiciona algum espaço vertical */  
+  font-size: 24px; /* Tamanho da fonte */  
+  font-weight: bold; /* Deixa o texto em negrito */  
+}  
+
+.custom-menu-item {  
+  background: #e6f7ff !important; /* Cor de fundo do item do menu */  
+  color: #000; /* Cor do texto do item */  
+}  
+
+.custom-header {  
+  background: #001529; /* Cor de fundo do cabeçalho */  
+  color: #fff; /* Cor do texto no cabeçalho */  
+}  
+
+.custom-content {  
+  border: 1px solid #ccc; /* Adiciona uma borda ao conteúdo */  
+  border-radius: 8px; /* Bordas arredondadas */  
+  padding: 24px; /* Espaçamento interno */  
+}  
+
+.custom-description {  
+  padding: 16px;  
+  background: #fff;  
+  border-radius: 8px;  
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);  
+  margin-bottom: 16px; /* Espaçamento inferior */  
+}  
+
+.custom-button {  
+  margin-top: 20px;  
+  float: right; /* Alinha o botão à direita */  
+}
+
